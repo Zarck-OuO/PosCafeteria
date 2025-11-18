@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+ 
 namespace ProyectoPOS_1CA_A.CapaPresentacion
 {
     public partial class FrmProducto : Form

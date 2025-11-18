@@ -150,8 +150,8 @@
             this.registrarVentasToolStripMenuItem,
             this.historialDeVentasToolStripMenuItem});
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(75, 27);
-            this.ventasToolStripMenuItem.Text = "Ventas";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(68, 27);
+            this.ventasToolStripMenuItem.Text = "Venta";
             // 
             // registrarVentasToolStripMenuItem
             // 
