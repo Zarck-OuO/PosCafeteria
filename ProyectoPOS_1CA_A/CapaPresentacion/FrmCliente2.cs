@@ -126,5 +126,10 @@ namespace ProyectoPOS_1CA_A.CapaPresentacion
                     Limpiar();
                 }
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
