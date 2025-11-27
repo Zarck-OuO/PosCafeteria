@@ -68,8 +68,78 @@ namespace ProyectoPOS_1CA_A.CapaPresentacion
             }
 
         }
+
+        private void dgvCategorias_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            categoriaID = Convert.ToInt32(dgvCategorias.Rows[e.RowIndex].Cells["CategoriaID"].Value);
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            FrmCategoriaGestion frm = new FrmCategoriaGestion(); //Aca dará error hasta que construyamos el Formulario llamado  FrmCategoriaGestion
+
+            // MODO CREAR NUEVA CATEGORIA
+            frm.Modo = "Nuevo"; //definimos por defecto que sea “nuevo”
+            frm.Id = 0; //Guardara el Id que traigamos  del FrmCategoriaGestion
+
+            frm.ShowDialog();  // Abrir como modal
+            CargarDatos();     // Refrescar al cerrar
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            if (categoriaID == 0)
+            {
+                MessageBox.Show("Seleccione una categoría",
+                   "Información",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Information);
+                return;
+            }
+            FrmCategoriaGestion frm = new FrmCategoriaGestion();
+            // MODO EDITAR
+            frm.Modo = "Editar";
+            frm.Id = categoriaID;
+
+            // Pasar información desde el DGV
+            frm.Nombre = dgvCategorias.CurrentRow.Cells["Nombre"].Value.ToString();
+            frm.Descripcion = dgvCategorias.CurrentRow.Cells["Descripcion"].Value.ToString();
+
+            frm.ShowDialog();
+            CargarDatos();
+        }
+
+
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (categoriaID == 0)
+            {
+                MessageBox.Show("Seleccione una categoría",
+                   "Información",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Information);
+                return;
+
+            }
+            // Abrir formulario de eliminación
+            FrmCategoriaEliminar frm = new FrmCategoriaEliminar();
+
+            frm.Id = categoriaID;
+            frm.NombreProducto = dgvCategorias.CurrentRow.Cells["NombreProducto"].Value.ToString();
+            frm.Descripcion = dgvCategorias.CurrentRow.Cells["Descripcion"].Value.ToString();
+
+            frm.ShowDialog();
+            CargarDatos();
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 
-}
 
 
