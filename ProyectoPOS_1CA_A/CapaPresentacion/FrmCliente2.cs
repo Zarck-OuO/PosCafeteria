@@ -131,5 +131,10 @@ namespace ProyectoPOS_1CA_A.CapaPresentacion
         {
             this.Close();
         }
+
+        private void txtTelefono_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
