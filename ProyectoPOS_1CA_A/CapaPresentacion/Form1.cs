@@ -32,7 +32,8 @@ namespace ProyectoPOS_1CA_A
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            FrmCategoria frm = new FrmCategoria();
+            frm.ShowDialog();
         }
 
         private void panelCentral_Paint(object sender, PaintEventArgs e)
