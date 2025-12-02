@@ -139,5 +139,15 @@ namespace ProyectoPOS_1CA_A.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tennis_player_2379593 {
+            get {
+                object obj = ResourceManager.GetObject("tennis-player_2379593", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

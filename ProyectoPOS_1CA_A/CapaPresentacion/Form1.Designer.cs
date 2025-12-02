@@ -48,6 +48,7 @@
             this.cierreDeCajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelIzquierdo = new System.Windows.Forms.Panel();
+            this.btnPruebas = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnCorteCaja = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
@@ -56,7 +57,8 @@
             this.btnVentaRapida = new System.Windows.Forms.Button();
             this.panelCentral = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.PictureBox();
-            this.btnPruebas = new System.Windows.Forms.Button();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.btnUsuarios = new System.Windows.Forms.Button();
             this.menuSuperior.SuspendLayout();
             this.panelIzquierdo.SuspendLayout();
             this.panelCentral.SuspendLayout();
@@ -206,6 +208,7 @@
             // panelIzquierdo
             // 
             this.panelIzquierdo.BackColor = System.Drawing.Color.DarkKhaki;
+            this.panelIzquierdo.Controls.Add(this.btnUsuarios);
             this.panelIzquierdo.Controls.Add(this.btnPruebas);
             this.panelIzquierdo.Controls.Add(this.btnSalir);
             this.panelIzquierdo.Controls.Add(this.btnCorteCaja);
@@ -219,6 +222,23 @@
             this.panelIzquierdo.Name = "panelIzquierdo";
             this.panelIzquierdo.Size = new System.Drawing.Size(150, 568);
             this.panelIzquierdo.TabIndex = 1;
+            // 
+            // btnPruebas
+            // 
+            this.btnPruebas.BackColor = System.Drawing.Color.White;
+            this.btnPruebas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPruebas.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPruebas.Image = global::ProyectoPOS_1CA_A.Properties.Resources.descarga__2_;
+            this.btnPruebas.Location = new System.Drawing.Point(8, 331);
+            this.btnPruebas.Margin = new System.Windows.Forms.Padding(2, 8, 2, 8);
+            this.btnPruebas.Name = "btnPruebas";
+            this.btnPruebas.Size = new System.Drawing.Size(135, 45);
+            this.btnPruebas.TabIndex = 3;
+            this.btnPruebas.Text = "Prubeas";
+            this.btnPruebas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPruebas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPruebas.UseVisualStyleBackColor = false;
+            this.btnPruebas.Click += new System.EventHandler(this.btnPruebas_Click);
             // 
             // btnSalir
             // 
@@ -343,22 +363,31 @@
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
             // 
-            // btnPruebas
+            // lblUsuario
             // 
-            this.btnPruebas.BackColor = System.Drawing.Color.White;
-            this.btnPruebas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPruebas.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPruebas.Image = global::ProyectoPOS_1CA_A.Properties.Resources.descarga__2_;
-            this.btnPruebas.Location = new System.Drawing.Point(8, 331);
-            this.btnPruebas.Margin = new System.Windows.Forms.Padding(2, 8, 2, 8);
-            this.btnPruebas.Name = "btnPruebas";
-            this.btnPruebas.Size = new System.Drawing.Size(135, 45);
-            this.btnPruebas.TabIndex = 3;
-            this.btnPruebas.Text = "Prubeas";
-            this.btnPruebas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPruebas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPruebas.UseVisualStyleBackColor = false;
-            this.btnPruebas.Click += new System.EventHandler(this.btnPruebas_Click);
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(501, 9);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(35, 13);
+            this.lblUsuario.TabIndex = 3;
+            this.lblUsuario.Text = "label1";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.BackColor = System.Drawing.Color.White;
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios.Image = global::ProyectoPOS_1CA_A.Properties.Resources.descarga__2_;
+            this.btnUsuarios.Location = new System.Drawing.Point(8, 382);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(2, 8, 2, 8);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(135, 45);
+            this.btnUsuarios.TabIndex = 6;
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUsuarios.UseVisualStyleBackColor = false;
             // 
             // FrmMenuPrincipal
             // 
@@ -367,6 +396,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(678, 595);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelIzquierdo);
             this.Controls.Add(this.menuSuperior);
@@ -384,6 +414,7 @@
             this.panelCentral.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -417,6 +448,8 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnCorteCaja;
         private System.Windows.Forms.Button btnPruebas;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Button btnUsuarios;
     }
 }
 

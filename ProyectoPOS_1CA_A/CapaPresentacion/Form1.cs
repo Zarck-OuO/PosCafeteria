@@ -1,4 +1,5 @@
-﻿using ProyectoPOS_1CA_A.CapaPresentacion;
+﻿using ProyectoPOS_1CA_A.CapaEntidades;
+using ProyectoPOS_1CA_A.CapaPresentacion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -59,7 +60,28 @@ namespace ProyectoPOS_1CA_A
         private void FrmMenuPrincipal_Load(object sender, EventArgs e)
         {
 
+            lblUsuario.Text = $"Usuario: {SesionActual.NombreUsuario} - Rol: {SesionActual.Rol}";
+
+            /// Control básico por rol
+            //Con este codigo deshabilitamos un botón de prueba para el usuario cajero, por ejemplo que no pueda Registrar Cliente(ojo esto es solo prueba)
+            switch (SesionActual.Rol)
+            {
+                case "Admin":
+                    // todo habilitado
+                    break;
+                case "Cajero":
+                    btnClientes.Enabled = false;
+                    btnUsuarios.Enabled = false;
+                    break;
+                default:
+                    btnClientes.Enabled = false;
+                    btnUsuarios.Enabled = false;
+                    break;
+
+            }
         }
+
+            
 
         private void reportesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -75,6 +97,12 @@ namespace ProyectoPOS_1CA_A
         {
             FrmPruebas frm = new FrmPruebas();
             frm.ShowDialog();
+        }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+            lblUsuario.Text = $"Usuario: {SesionActual.NombreUsuario} - Rol: {SesionActual.Rol}";
+
         }
     }
 }
