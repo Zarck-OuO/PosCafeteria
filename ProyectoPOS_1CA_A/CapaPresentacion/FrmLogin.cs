@@ -48,5 +48,15 @@ namespace ProyectoPOS_1CA_A.CapaPresentacion
 
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

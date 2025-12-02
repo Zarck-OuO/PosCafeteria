@@ -1,4 +1,6 @@
-﻿using ProyectoPOS_1CA_A.CapaEntidades;
+﻿using Proyecto_POSFerreteria.Presentacion;
+using ProyectoPOS_1CA_A.CapaEntidades;
+using ProyectoPOS_1CA_A.CapaPresentacioDn;
 using ProyectoPOS_1CA_A.CapaPresentacion;
 using System;
 using System.Collections.Generic;
@@ -91,6 +93,8 @@ namespace ProyectoPOS_1CA_A
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+            FrmLogin frm = new FrmLogin();
+            frm.ShowDialog();
         }
 
         private void btnPruebas_Click(object sender, EventArgs e)
@@ -102,6 +106,20 @@ namespace ProyectoPOS_1CA_A
         private void lblUsuario_Click(object sender, EventArgs e)
         {
             lblUsuario.Text = $"Usuario: {SesionActual.NombreUsuario} - Rol: {SesionActual.Rol}";
+
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            FrmUsuarios frm = new FrmUsuarios();
+            frm.ShowDialog();
+
+        }
+
+        private void cambiarClaveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCambiarClave frm = new FrmCambiarClave();
+            frm.ShowDialog();
 
         }
     }

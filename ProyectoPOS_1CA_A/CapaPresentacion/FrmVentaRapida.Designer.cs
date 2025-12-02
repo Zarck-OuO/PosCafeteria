@@ -61,10 +61,9 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(115, 513);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTotal.Location = new System.Drawing.Point(153, 631);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(235, 26);
+            this.lblTotal.Size = new System.Drawing.Size(278, 31);
             this.lblTotal.TabIndex = 20;
             this.lblTotal.Text = "Monto total:  Total: $0.00";
             // 
@@ -72,10 +71,10 @@
             // 
             this.btnRegistrarVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnRegistrarVenta.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarVenta.Location = new System.Drawing.Point(454, 503);
-            this.btnRegistrarVenta.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegistrarVenta.Location = new System.Drawing.Point(605, 619);
+            this.btnRegistrarVenta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegistrarVenta.Name = "btnRegistrarVenta";
-            this.btnRegistrarVenta.Size = new System.Drawing.Size(149, 35);
+            this.btnRegistrarVenta.Size = new System.Drawing.Size(199, 43);
             this.btnRegistrarVenta.TabIndex = 21;
             this.btnRegistrarVenta.Text = "REGISTRAR VENTA";
             this.btnRegistrarVenta.UseVisualStyleBackColor = false;
@@ -85,10 +84,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(260, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(347, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 21);
+            this.label1.Size = new System.Drawing.Size(436, 26);
             this.label1.TabIndex = 16;
             this.label1.Text = "FORMULARIO POS - REGISTRO DE VENTAS";
             // 
@@ -99,11 +97,11 @@
             this.groupBox3.Controls.Add(this.dgvDetalles);
             this.groupBox3.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox3.Location = new System.Drawing.Point(454, 176);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Location = new System.Drawing.Point(605, 217);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(547, 307);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(729, 378);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "DETALLES DE VENTA";
@@ -112,10 +110,10 @@
             // 
             this.btnLimpiarDetalle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnLimpiarDetalle.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiarDetalle.Location = new System.Drawing.Point(446, 148);
-            this.btnLimpiarDetalle.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiarDetalle.Location = new System.Drawing.Point(595, 182);
+            this.btnLimpiarDetalle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLimpiarDetalle.Name = "btnLimpiarDetalle";
-            this.btnLimpiarDetalle.Size = new System.Drawing.Size(82, 44);
+            this.btnLimpiarDetalle.Size = new System.Drawing.Size(109, 54);
             this.btnLimpiarDetalle.TabIndex = 10;
             this.btnLimpiarDetalle.Text = "LIMPIAR TODOS";
             this.btnLimpiarDetalle.UseVisualStyleBackColor = false;
@@ -125,10 +123,10 @@
             // 
             this.btnQuitar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnQuitar.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitar.Location = new System.Drawing.Point(446, 88);
-            this.btnQuitar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnQuitar.Location = new System.Drawing.Point(595, 108);
+            this.btnQuitar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuitar.Name = "btnQuitar";
-            this.btnQuitar.Size = new System.Drawing.Size(82, 44);
+            this.btnQuitar.Size = new System.Drawing.Size(109, 54);
             this.btnQuitar.TabIndex = 9;
             this.btnQuitar.Text = "QUITAR PRODUCTO";
             this.btnQuitar.UseVisualStyleBackColor = false;
@@ -140,12 +138,12 @@
             this.dgvDetalles.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDetalles.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dgvDetalles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDetalles.Location = new System.Drawing.Point(34, 24);
-            this.dgvDetalles.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvDetalles.Location = new System.Drawing.Point(45, 30);
+            this.dgvDetalles.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDetalles.Name = "dgvDetalles";
             this.dgvDetalles.RowHeadersWidth = 62;
             this.dgvDetalles.RowTemplate.Height = 28;
-            this.dgvDetalles.Size = new System.Drawing.Size(384, 263);
+            this.dgvDetalles.Size = new System.Drawing.Size(512, 324);
             this.dgvDetalles.TabIndex = 8;
             this.dgvDetalles.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalles_CellContentClick);
             this.dgvDetalles.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalles_CellEndEdit);
@@ -160,11 +158,11 @@
             this.groupBox2.Controls.Add(this.lblCliente);
             this.groupBox2.Controls.Add(this.lblPago);
             this.groupBox2.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(22, 82);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Location = new System.Drawing.Point(29, 101);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(950, 54);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(1267, 66);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "DATO GENERAL DE VENTA";
@@ -172,20 +170,20 @@
             // dtpFecha
             // 
             this.dtpFecha.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFecha.Location = new System.Drawing.Point(653, 20);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(2);
+            this.dtpFecha.Location = new System.Drawing.Point(871, 25);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(269, 28);
+            this.dtpFecha.Size = new System.Drawing.Size(357, 33);
             this.dtpFecha.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(218, 21);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(291, 26);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 21);
+            this.button1.Size = new System.Drawing.Size(97, 26);
             this.button1.TabIndex = 0;
             this.button1.Text = "NUEVO";
             this.button1.UseVisualStyleBackColor = false;
@@ -195,30 +193,29 @@
             this.cboMetodoPago.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cboMetodoPago.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboMetodoPago.FormattingEnabled = true;
-            this.cboMetodoPago.Location = new System.Drawing.Point(402, 19);
-            this.cboMetodoPago.Margin = new System.Windows.Forms.Padding(2);
+            this.cboMetodoPago.Location = new System.Drawing.Point(536, 23);
+            this.cboMetodoPago.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboMetodoPago.Name = "cboMetodoPago";
-            this.cboMetodoPago.Size = new System.Drawing.Size(150, 26);
+            this.cboMetodoPago.Size = new System.Drawing.Size(199, 30);
             this.cboMetodoPago.TabIndex = 4;
             this.cboMetodoPago.Text = "Lista de tipos de pago";
             // 
             // cboCliente
             // 
             this.cboCliente.FormattingEnabled = true;
-            this.cboCliente.Location = new System.Drawing.Point(83, 21);
-            this.cboCliente.Margin = new System.Windows.Forms.Padding(2);
+            this.cboCliente.Location = new System.Drawing.Point(111, 26);
+            this.cboCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboCliente.Name = "cboCliente";
-            this.cboCliente.Size = new System.Drawing.Size(128, 24);
+            this.cboCliente.Size = new System.Drawing.Size(169, 26);
             this.cboCliente.TabIndex = 0;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(568, 23);
-            this.lblFecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFecha.Location = new System.Drawing.Point(757, 28);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(51, 21);
+            this.lblFecha.Size = new System.Drawing.Size(63, 26);
             this.lblFecha.TabIndex = 3;
             this.lblFecha.Text = "Fecha";
             // 
@@ -226,10 +223,9 @@
             // 
             this.lblCliente.AutoSize = true;
             this.lblCliente.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCliente.Location = new System.Drawing.Point(22, 24);
-            this.lblCliente.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCliente.Location = new System.Drawing.Point(29, 30);
             this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(58, 16);
+            this.lblCliente.Size = new System.Drawing.Size(76, 19);
             this.lblCliente.TabIndex = 1;
             this.lblCliente.Text = "CLIENTE:";
             // 
@@ -237,10 +233,9 @@
             // 
             this.lblPago.AutoSize = true;
             this.lblPago.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPago.Location = new System.Drawing.Point(319, 20);
-            this.lblPago.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPago.Location = new System.Drawing.Point(425, 25);
             this.lblPago.Name = "lblPago";
-            this.lblPago.Size = new System.Drawing.Size(79, 21);
+            this.lblPago.Size = new System.Drawing.Size(102, 26);
             this.lblPago.TabIndex = 2;
             this.lblPago.Text = "Tipo Pago";
             // 
@@ -248,10 +243,10 @@
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnCancelar.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(636, 503);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCancelar.Location = new System.Drawing.Point(848, 619);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(149, 35);
+            this.btnCancelar.Size = new System.Drawing.Size(199, 43);
             this.btnCancelar.TabIndex = 22;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -265,21 +260,21 @@
             this.groupBox1.Controls.Add(this.btnBuscarProducto);
             this.groupBox1.Controls.Add(this.lblBuscar);
             this.groupBox1.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(11, 176);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Location = new System.Drawing.Point(15, 217);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(415, 321);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(553, 395);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PRODUCTOS";
             // 
             // txtBuscarProducto
             // 
-            this.txtBuscarProducto.Location = new System.Drawing.Point(69, 21);
-            this.txtBuscarProducto.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBuscarProducto.Location = new System.Drawing.Point(92, 26);
+            this.txtBuscarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBuscarProducto.Name = "txtBuscarProducto";
-            this.txtBuscarProducto.Size = new System.Drawing.Size(208, 22);
+            this.txtBuscarProducto.Size = new System.Drawing.Size(276, 25);
             this.txtBuscarProducto.TabIndex = 8;
             this.txtBuscarProducto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscarProducto_KeyDown);
             // 
@@ -289,23 +284,24 @@
             this.dgvProductos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvProductos.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProductos.Location = new System.Drawing.Point(22, 50);
-            this.dgvProductos.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvProductos.Location = new System.Drawing.Point(29, 62);
+            this.dgvProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvProductos.Name = "dgvProductos";
             this.dgvProductos.RowHeadersWidth = 62;
             this.dgvProductos.RowTemplate.Height = 28;
-            this.dgvProductos.Size = new System.Drawing.Size(364, 197);
+            this.dgvProductos.Size = new System.Drawing.Size(485, 242);
             this.dgvProductos.TabIndex = 0;
+            this.dgvProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellContentClick);
             this.dgvProductos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellDoubleClick);
             // 
             // btnAgregarProducto
             // 
             this.btnAgregarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnAgregarProducto.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarProducto.Location = new System.Drawing.Point(46, 264);
-            this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAgregarProducto.Location = new System.Drawing.Point(61, 325);
+            this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
-            this.btnAgregarProducto.Size = new System.Drawing.Size(244, 23);
+            this.btnAgregarProducto.Size = new System.Drawing.Size(325, 28);
             this.btnAgregarProducto.TabIndex = 7;
             this.btnAgregarProducto.Text = "AGREGAR PRODUCTO AL CARRITO";
             this.btnAgregarProducto.UseVisualStyleBackColor = false;
@@ -315,10 +311,10 @@
             // 
             this.btnBuscarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnBuscarProducto.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarProducto.Location = new System.Drawing.Point(282, 19);
-            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBuscarProducto.Location = new System.Drawing.Point(376, 23);
+            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBuscarProducto.Name = "btnBuscarProducto";
-            this.btnBuscarProducto.Size = new System.Drawing.Size(77, 25);
+            this.btnBuscarProducto.Size = new System.Drawing.Size(103, 31);
             this.btnBuscarProducto.TabIndex = 6;
             this.btnBuscarProducto.Text = "BUSCAR";
             this.btnBuscarProducto.UseVisualStyleBackColor = false;
@@ -328,18 +324,17 @@
             // 
             this.lblBuscar.AutoSize = true;
             this.lblBuscar.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscar.Location = new System.Drawing.Point(7, 24);
-            this.lblBuscar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblBuscar.Location = new System.Drawing.Point(9, 30);
             this.lblBuscar.Name = "lblBuscar";
-            this.lblBuscar.Size = new System.Drawing.Size(55, 16);
+            this.lblBuscar.Size = new System.Drawing.Size(72, 19);
             this.lblBuscar.TabIndex = 6;
             this.lblBuscar.Text = "FILTRAR:";
             // 
             // FrmVentaRapida
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 598);
+            this.ClientSize = new System.Drawing.Size(1349, 736);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.btnRegistrarVenta);
             this.Controls.Add(this.label1);
@@ -347,6 +342,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmVentaRapida";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmVentaRapida";

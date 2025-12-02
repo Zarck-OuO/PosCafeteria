@@ -8,7 +8,7 @@ namespace ProyectoPOS_1CA_A.CapaDato
 {
     public class Conexion
     {
-        public static string Cadena = @"Data Source=DESKTOP-503K00D\SQLEXPRESS; Initial Catalog=Pos_Cafeteria; Integrated Security = True;";
+        public static string Cadena = @"Data Source=DESKTOP-K12R4B5\SQLEXPRESS; Initial Catalog=Pos_Cafeteria; Integrated Security = True;";
 
         // COmputadora de escritorio DESKTOP-503K00D\SQLEXPRESS
         //Laptopt DESKTOP-K12R4B5\SQLEXPRESS
