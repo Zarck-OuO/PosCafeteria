@@ -35,7 +35,7 @@ namespace ProyectoPOS_1CA_A
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            FrmCategoria frm = new FrmCategoria();
+            FrmReporteVentas frm = new FrmReporteVentas();
             frm.ShowDialog();
         }
 

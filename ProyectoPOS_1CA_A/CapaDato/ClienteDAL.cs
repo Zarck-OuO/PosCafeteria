@@ -156,6 +156,9 @@ namespace ProyectoPOS_1CA_A.CapaDato
                 }
             }
         }
+
+
+
         public static List<Cliente2> ListarActivos()
         {
             List<Cliente2> lista = new List<Cliente2>();
